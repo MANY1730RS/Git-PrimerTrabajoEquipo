@@ -75,11 +75,21 @@ void Funcion2()
 
 void Funcion3()
 {
+int n, i;
+    long double factorial;
+	cout << "Introduce el numero: " << endl;
+	cin >> n;
+    factorial=1;
+    for(i=1;i<=n;i++)
+    factorial = factorial * i;
+    cout << endl << "El factorial del numero es " << factorial << endl;
 
 }
 
 void Funcion4()
 {
+
+
 
 }
 
