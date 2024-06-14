@@ -2,7 +2,7 @@
 #include <string>
 
 using namespace std;
-// Función para verificar si una cadena es un palíndromo
+// Función para verificar si una cadena es un palíndromo.
 bool esPalindromo(string cadena) {
     int longitud = cadena.length();
     for (int i = 0; i < longitud / 2; i++) {
@@ -25,7 +25,7 @@ void mostrarMenu() {
 
 void Funcion1()
 {
-cin.ignore(); // Limpiar el buffer de entrada
+cin.ignore(); // Limpiar el buffer de entrada c:
                 string cadena;
                 cout << "Ingrese una cadena de texto: ";
                 getline(cin, cadena);
