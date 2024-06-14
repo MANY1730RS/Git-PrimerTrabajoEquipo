@@ -1,4 +1,4 @@
-/*Escriba un programa que reciba como entrada un número natural, e indique si es 
+l/*Escriba un programa que reciba como entrada un número natural, e indique si es 
 primo o compuesto*/
 
 #include <iostream>
