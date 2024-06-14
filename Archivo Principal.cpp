@@ -37,6 +37,20 @@ bool esPrimo(int numero) {
     return true;
 }
 
+// Función para dibujar un rectángulo de asteriscos
+void dibujarRectangulo(int altura, int ancho) {
+    for (int i = 0; i < altura; ++i) {
+        for (int j = 0; j < ancho; ++j) {
+            if (i == 0 || i == altura - 1 || j == 0 || j == ancho - 1) {
+                cout << "* ";
+            } else {
+                cout << "  ";
+            }
+        }
+        cout << endl;
+    }
+}
+
 void mostrarMenu() {
     cout << "\nSeleccione una opción: \n";
     cout << "1. Verificar si una cadena es un palíndromo\n";
@@ -88,9 +102,12 @@ int n, i;
 
 void Funcion4()
 {
-
-
-
+int altura, ancho;
+                cout << "Ingrese la altura del rectángulo: ";
+                cin >> altura;
+                cout << "Ingrese el ancho del rectángulo: ";
+                cin >> ancho;
+                dibujarRectangulo(altura, ancho);
 }
 
 int main() {
